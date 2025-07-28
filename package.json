@@ -1,0 +1,37 @@
+{
+  "name": "consumer-open-music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node consumer/exportConsumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "node-pg-migrate": "^8.0.3",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.4.0",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/jwt": "^3.2.0",
+    "amqplib": "^0.10.8",
+    "auto-bind": "^5.0.1",
+    "aws-sdk": "^2.1692.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.6.1",
+    "hapi": "^18.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "nanoid": "^3.3.11",
+    "nodemailer": "^7.0.5",
+    "pg": "^8.16.3",
+    "redis": "^5.6.1"
+  }
+}
